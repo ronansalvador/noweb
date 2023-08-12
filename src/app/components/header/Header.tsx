@@ -2,6 +2,8 @@
 import React, { useState } from 'react';
 import styles from './style.module.css';
 import Image from 'next/image';
+import categorias from '@/app/categorias.json';
+import Link from 'next/link';
 
 function Header() {
   const [isOpen, setIsOpen] = useState(true);
@@ -45,11 +47,20 @@ function Header() {
           className={isOpen ? styles.hidden : styles.categorias}
           onMouseLeave={() => setIsOpen(true)}
         >
-          <li>cat1</li>
-          <li>cat2</li>
-          <li>cat3</li>
-          <li>cat4</li>
-          <li>cat5</li>
+          {categorias.map((categoria) => (
+            <Link href={categoria.link} key={categoria.id}>
+              <div>
+                <Image
+                  src={categoria.image}
+                  width='54'
+                  height='54'
+                  alt={categoria.nome}
+                />
+              </div>
+
+              <p>{categoria.nome}</p>
+            </Link>
+          ))}
         </ul>
       </nav>
     </header>

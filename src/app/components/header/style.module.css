@@ -63,6 +63,33 @@
   margin-left: 100px;
   z-index: 7;
   margin-top: 10px;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.categorias a {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.categorias a div {
+  width: 4.25rem;
+  height: 4.25rem;
+  padding: 0.5rem;
+  background-color: var(--amarelo);
+  border-radius: 15px;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.categorias a div img {
+  width: auto;
+  max-height: 54px;
 }
 
 .hidden {

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "image": "/images/categorias/lampada.png",
+    "nome": "Lâmpadas",
+    "link": "#"
+  },
+  {
+    "id": 2,
+    "image": "/images/categorias/lustre.png",
+    "nome": "Lustres",
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "image": "/images/categorias/luminaria.png",
+    "nome": "Luminárias",
+    "link": "#"
+  },
+  {
+    "id": 4,
+    "image": "/images/categorias/decoracoes.png",
+    "nome": "Decorações",
+    "link": "#"
+  },
+  {
+    "id": 5,
+    "image": "/images/categorias/acessorios.png",
+    "nome": "Acessórios",
+    "link": "#"
+  },
+  {
+    "id": 6,
+    "image": "/images/categorias/ferramentas.png",
+    "nome": "Ferramentas",
+    "link": "#"
+  },
+  {
+    "id": 7,
+    "image": "/images/categorias/utencilios.png",
+    "nome": "Utensílios Domésticos",
+    "link": "#"
+  },
+  {
+    "id": 8,
+    "image": "/images/categorias/cabos.png",
+    "nome": "Cabos",
+    "link": "#"
+  }
+]
