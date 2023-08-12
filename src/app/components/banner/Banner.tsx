@@ -17,7 +17,7 @@ function Banner() {
         <button className={styles['transparent-btn']}>
           NOS CONHEÇA MELHOR
         </button>
-        <a href='#'>
+        <a href='#destaque'>
           <span>
             <Image
               src='/images/arrow-down.png'

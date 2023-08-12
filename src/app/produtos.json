@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "nome": "Lustre suspenso rústico",
+    "valor": 1500.0,
+    "promocional": 1000.0,
+    "parcelas": 3,
+    "imagem": "/images/destaques/lustre.png",
+    "categoria": "Lustres"
+  },
+  {
+    "id": 2,
+    "nome": "Lâmpada",
+    "valor": 60.0,
+    "promocional": 45.0,
+    "parcelas": 2,
+    "imagem": "/images/destaques/lampada.png",
+    "categoria": "Lâmpadas"
+  },
+  {
+    "id": 3,
+    "nome": "Régua extensão elétrica",
+    "valor": 25.0,
+    "promocional": 17.0,
+    "parcelas": "",
+    "imagem": "/images/destaques/regua.png",
+    "categoria": "Acessórios"
+  },
+  {
+    "id": 4,
+    "nome": "Kit de ferramentas",
+    "valor": 100.0,
+    "promocional": 80.0,
+    "parcelas": 2,
+    "imagem": "/images/destaques/ferramentas.png",
+    "categoria": "Ferramentas"
+  },
+  {
+    "id": 5,
+    "nome": "Garfos de mesa inox",
+    "valor": 15.0,
+    "promocional": 8.0,
+    "parcelas": "",
+    "imagem": "/images/destaques/garfos.png",
+    "categoria": "Utensílios domésticos"
+  },
+  {
+    "id": 6,
+    "nome": "Chuveiro elétrico",
+    "valor": 60.0,
+    "promocional": 45.0,
+    "parcelas": 2,
+    "imagem": "/images/destaques/chuveiro.png",
+    "categoria": "Acessórios"
+  },
+  {
+    "id": 7,
+    "nome": "Ventilador 2 em 1, mesa e parede",
+    "valor": 50.0,
+    "promocional": 30.0,
+    "parcelas": "",
+    "imagem": "/images/destaques/ventilador.png",
+    "categoria": "Utensílios domésticos"
+  },
+  {
+    "id": 7,
+    "nome": "Tomada dupla 10a",
+    "valor": 20.0,
+    "promocional": 10.0,
+    "parcelas": "",
+    "imagem": "/images/destaques/tomada.png",
+    "categoria": "Acessórios"
+  }
+]

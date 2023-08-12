@@ -1,0 +1,116 @@
+.destaque {
+  position: relative;
+  height: 100vh;
+}
+
+.destaque-img {
+  position: absolute;
+  top: 3.125rem;
+  left: 14.125rem;
+}
+
+.destaque h1 {
+  position: absolute;
+  top: 20.5rem;
+  left: 38.625rem;
+  color: white;
+  /* font-family: Gotham; */
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.produtos {
+  position: absolute;
+  top: 378px;
+  left: 378px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1.875rem;
+}
+
+.produto {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 20px 20px 0px 0px;
+  align-items: center;
+  height: 28rem;
+}
+
+.produto span {
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  background-color: #e0e0e0;
+  border-radius: 0px 62px 62px 0px;
+  padding: 8px 15px;
+  /* font-family: Gotham; */
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.produto-nome {
+  text-align: center;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  display: flex;
+  width: 211px;
+  height: 54px;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 16rem;
+}
+
+.line {
+  position: absolute;
+  top: 208px;
+  width: 217px;
+  height: 19px;
+  border-radius: 15px;
+  background-color: var(--azul-escuro);
+}
+
+.price {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  top: 20.625rem;
+  justify-content: space-between;
+  text-align: center;
+  /* font-family: Gotham; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px; /* 237.5% */
+}
+
+.valor {
+  padding-left: 12px;
+  text-decoration: line-through;
+}
+
+.promocional {
+  background-color: var(--amarelo);
+  width: 144px;
+  padding: 0.5rem;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.parcelas {
+  position: absolute;
+  bottom: 0;
+  border-radius: 15px 15px 0px 0px;
+  background: #f7f7f7;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
