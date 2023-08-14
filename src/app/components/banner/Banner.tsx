@@ -5,7 +5,6 @@ import styles from './style.module.css';
 function Banner() {
   return (
     <div className={styles.banner}>
-      <Image width='1920' height='801' src='/images/banner.png' alt='banner' />
       <div className={styles['banner-content']}>
         <h1>ILUMINE O SEU DIA A DIA!</h1>
         <p>
@@ -17,7 +16,7 @@ function Banner() {
         <button className={styles['transparent-btn']}>
           NOS CONHEÇA MELHOR
         </button>
-        <a href='#destaque'>
+        <a href='#destaque' className={styles['scroll-down']}>
           <span>
             <Image
               src='/images/arrow-down.png'

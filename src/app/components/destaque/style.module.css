@@ -115,3 +115,18 @@
   align-items: center;
   padding: 1rem;
 }
+
+@media (max-width: 48em) {
+  .produtos {
+    padding: 1em;
+  }
+  .produtos {
+    grid-template-columns: 1fr;
+    left: 2rem;
+    position: initial;
+  }
+
+  .destaque-img {
+    display: none;
+  }
+}

@@ -4,6 +4,7 @@
   height: 5rem;
   justify-content: space-between;
   align-items: center;
+  overflow: hidden;
 }
 
 .logo {
@@ -106,7 +107,7 @@
 }
 
 /* Estilos para telas menores que 768px */
-@media (max-width: 767px) {
+@media (max-width: 64em) {
   .detalhe-header {
     display: none;
   }

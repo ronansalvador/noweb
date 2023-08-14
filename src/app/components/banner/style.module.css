@@ -1,6 +1,10 @@
 .banner {
-  position: relative;
+  display: flex;
+  justify-content: center;
   height: 50rem;
+  background-image: url('/images/banner.png');
+  background-position: center;
+  align-items: center;
 }
 
 .banner img {
@@ -9,21 +13,19 @@
 }
 
 .banner-content {
-  position: absolute;
-  top: 0;
-  left: 24rem;
-  width: 35rem;
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
 }
 
 .banner-content h1 {
   color: white;
   /* font-family: Gotham; */
-  font-size: 70px;
+  font-size: 4.5rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-top: 5rem;
+  max-width: 50%;
 }
 
 .banner-content p {
@@ -32,12 +34,12 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 38px; /* 211.111% */
-  /* letter-spacing: -0.54px; */
+  line-height: 38px;
   margin-top: 1.875rem;
+  max-width: 50%;
 }
 
-.banner-content a {
+.scroll-down {
   display: flex;
   align-items: center;
   color: white;
@@ -85,4 +87,27 @@
 
 .transparent-btn:hover {
   scale: 1.1;
+}
+
+/* Estilos para telas menores que 768px */
+@media (max-width: 64em) {
+  .banner {
+    background-position: left;
+    max-height: 33em;
+    padding: 0.5rem;
+  }
+  .banner-content {
+    width: 95%;
+  }
+  .banner-content h1 {
+    font-size: 2rem;
+    max-width: 100%;
+  }
+
+  .banner-content p {
+    max-width: 100%;
+  }
+  .scroll-down {
+    display: none;
+  }
 }
