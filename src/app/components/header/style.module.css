@@ -7,7 +7,8 @@
 }
 
 .logo {
-  height: 50px;
+  width: 145px;
+  height: 51px;
 }
 
 .nav {
@@ -27,6 +28,7 @@
 
 .menu li {
   cursor: pointer;
+  color: var(--azul-escuro);
 }
 
 .categoria {
@@ -45,7 +47,7 @@
 }
 
 .contato {
-  color: white;
+  color: white !important;
   background-color: var(--azul-escuro);
   padding: 0.9rem 2rem;
   border-radius: 10px;
@@ -71,7 +73,7 @@
   width: 90%;
   align-items: center;
   text-decoration: none;
-  color: black;
+  color: var(--azul-escuro);
 }
 
 .categorias a div {
@@ -93,4 +95,54 @@
 
 .hidden {
   display: none;
+}
+
+.menu-mobile {
+  display: none;
+}
+
+.menu-mobile svg {
+  color: var(--azul-escuro);
+}
+
+/* Estilos para telas menores que 768px */
+@media (max-width: 767px) {
+  .detalhe-header {
+    display: none;
+  }
+  .logo {
+    width: 8em;
+    height: auto;
+    margin: auto;
+  }
+
+  .nav {
+    width: 8em;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .menu-mobile button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .menu-mobile svg {
+    font-size: 2rem;
+  }
+}
+
+/* Estilos para telas entre 768px e 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Estilos aqui */
 }
