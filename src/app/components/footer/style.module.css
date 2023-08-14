@@ -1,0 +1,91 @@
+.footer {
+  height: 23rem;
+  background-color: var(--azul-escuro);
+  margin-top: -2px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.circles {
+  position: absolute;
+  width: 206.349px;
+  height: 208px;
+  top: 62px;
+  right: 0;
+}
+.sociais {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  padding-top: 3.5rem;
+  border-bottom: 1px solid var(--amarelo);
+  height: 261px;
+}
+
+.slogan {
+  /* position: absolute;
+  top: 53px;
+  left: 390px; */
+  width: 360px;
+}
+
+.slogan p {
+  color: #fff;
+  /* font-family: Gotham; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px; /* 237.5% */
+  letter-spacing: -0.8px;
+}
+
+.midias {
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.midias p {
+  color: white;
+  text-align: right;
+  /* font-family: Gotham; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px; /* 237.5% */
+  letter-spacing: -0.8px;
+  margin-bottom: 1rem;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 0;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  /* font-family: Gotham; */
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px; /* 300% */
+  letter-spacing: -0.3px;
+  color: white;
+}
+
+.noweb {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.noweb a {
+  display: flex;
+  align-items: center;
+}

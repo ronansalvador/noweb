@@ -1,7 +1,7 @@
 .header {
   background-color: white;
   display: flex;
-  height: 80px;
+  height: 5rem;
   justify-content: space-between;
   align-items: center;
 }
@@ -53,18 +53,17 @@
 }
 
 .categorias {
+  background-image: url('/images/categorias/categorias.svg');
   position: fixed;
-  background-color: white;
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
   flex-direction: column;
-  width: 360px;
-  height: 754.5px;
-  margin-left: 100px;
+  width: 400px;
+  height: 767px;
+  margin-left: 70px;
   z-index: 7;
-  margin-top: 10px;
   padding: 2rem;
-  gap: 1rem;
 }
 
 .categorias a {

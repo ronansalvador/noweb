@@ -1,0 +1,29 @@
+.televendas {
+  height: 50vh;
+  position: relative;
+}
+
+.televendas img {
+  margin-top: 3rem;
+}
+
+.televendas button {
+  position: absolute;
+  bottom: 3.5rem;
+  left: 58rem;
+  background-color: var(--amarelo);
+  color: var(--azul-escuro);
+  border: none;
+  width: 360px;
+  height: 63px;
+  border-radius: 15px;
+  color: var(--azul-escuro);
+  text-align: center;
+  /* font-family: Gotham; */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: -0.54px;
+  box-shadow: 5px 5px 58px -15px rgba(251, 175, 23, 1);
+}
