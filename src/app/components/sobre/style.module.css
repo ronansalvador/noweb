@@ -54,3 +54,38 @@
   line-height: 38px; /* 211.111% */
   margin-top: 1.5rem;
 }
+
+/* Estilos para telas menores que 768px */
+@media (max-width: 64em) {
+  .sobre {
+    display: flex;
+    height: auto;
+    position: initial;
+    margin-top: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .sobre img {
+    position: initial;
+    display: none;
+  }
+  .sobre h1 {
+    /* display: none; */
+    position: initial;
+    width: 90%;
+    padding: 1rem 0;
+  }
+
+  .texto-sobre {
+    /* display: none; */
+    position: initial;
+    width: 90%;
+    font-size: 1.5rem;
+  }
+
+  .texto-sobre button {
+    position: initial;
+  }
+}

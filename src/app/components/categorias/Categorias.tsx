@@ -11,8 +11,9 @@ function Categorias() {
         alt='categorias'
         width={1920}
         height={456}
+        className={styles['img-categorias']}
       />
-      <p className={styles.title}>CATEGORIAS</p>
+      <h1 className={styles.title}>CATEGORIAS</h1>
       <div className={styles['grid-categorias']}>
         {categorias.map((categoria) => (
           <div key={categoria.id} className={styles.categoria}>

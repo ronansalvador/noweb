@@ -18,7 +18,7 @@
   color: white;
   text-align: center;
   /* font-family: Gotham; */
-  font-size: 35px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -78,14 +78,20 @@
 @media (max-width: 48em) {
   .categorias {
     margin-top: 0;
+    padding: 1rem 0;
   }
 
+  .img-categorias {
+    display: none;
+  }
   .title {
-    display: initial;
+    position: initial;
+    margin: 1rem 0;
   }
 
   .grid-categorias {
     grid-template-columns: 1fr;
     /* gap: 4rem; */
+    position: initial;
   }
 }
