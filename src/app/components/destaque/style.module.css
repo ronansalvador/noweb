@@ -118,15 +118,21 @@
 
 @media (max-width: 48em) {
   .produtos {
-    padding: 1em;
-  }
-  .produtos {
     grid-template-columns: 1fr;
     left: 2rem;
     position: initial;
+    padding: 1em;
+  }
+
+  .destaque {
+    height: auto;
   }
 
   .destaque-img {
+    display: none;
+  }
+
+  .destaque h1 {
     display: none;
   }
 }

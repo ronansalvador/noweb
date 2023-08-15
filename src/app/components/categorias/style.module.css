@@ -5,6 +5,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-image: url('/images/categorias.png');
 }
 
 .categorias img {
@@ -72,4 +73,19 @@
 .categoria img {
   max-width: 200px;
   max-height: 200px;
+}
+
+@media (max-width: 48em) {
+  .categorias {
+    margin-top: 0;
+  }
+
+  .title {
+    display: initial;
+  }
+
+  .grid-categorias {
+    grid-template-columns: 1fr;
+    /* gap: 4rem; */
+  }
 }
