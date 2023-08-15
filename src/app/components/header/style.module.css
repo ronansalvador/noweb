@@ -145,5 +145,37 @@
 
 /* Estilos para telas entre 768px e 1023px */
 @media (min-width: 768px) and (max-width: 1023px) {
-  /* Estilos aqui */
+  .detalhe-header {
+    display: none;
+  }
+  .logo {
+    width: 8em;
+    height: auto;
+    margin: auto;
+  }
+
+  .nav {
+    width: 8em;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .menu-mobile button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .menu-mobile svg {
+    font-size: 2rem;
+  }
 }
