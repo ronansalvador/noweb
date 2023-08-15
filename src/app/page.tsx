@@ -15,8 +15,8 @@ export default function Home() {
       <Destaque />
       <Categorias />
       <Sobre />
-      {/* <Televendas />
-      <Footer /> */}
+      <Televendas />
+      <Footer />
     </main>
   );
 }

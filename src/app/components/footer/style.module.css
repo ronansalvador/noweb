@@ -41,9 +41,6 @@
   letter-spacing: -0.8px;
 }
 
-.midias {
-}
-
 .icons {
   display: flex;
   align-items: center;
@@ -88,4 +85,40 @@
 .noweb a {
   display: flex;
   align-items: center;
+}
+
+@media (max-width: 48em) {
+  .footer {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    padding: 1rem;
+  }
+  .circles {
+    display: none;
+  }
+
+  .sociais {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
+
+  .copyright {
+    position: initial;
+    flex-direction: column;
+    width: 100%;
+    line-height: 1rem;
+    margin-top: 1rem;
+  }
+  .midias {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .icons {
+    width: 100%;
+  }
 }
