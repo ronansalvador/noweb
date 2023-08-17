@@ -83,6 +83,8 @@
   .categorias {
     margin-top: 0;
     padding: 1rem 0;
+    background-color: var(--azul-escuro);
+    position: initial;
   }
 
   .img-categorias {
@@ -94,7 +96,9 @@
   }
 
   .grid-categorias {
+    width: 70%;
     grid-template-columns: 1fr;
-    position: initial;
+    /* position: initial; */
+    margin: 0;
   }
 }
