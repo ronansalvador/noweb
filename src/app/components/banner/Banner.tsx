@@ -4,7 +4,7 @@ import styles from './style.module.css';
 
 function Banner() {
   return (
-    <div className={styles.banner}>
+    <section className={styles.banner}>
       <div className={styles['banner-content']}>
         <h1>ILUMINE O SEU DIA A DIA!</h1>
         <p>
@@ -28,7 +28,7 @@ function Banner() {
           Role para ver mais
         </a>
       </div>
-    </div>
+    </section>
   );
 }
 

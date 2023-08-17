@@ -1,18 +1,21 @@
 .destaque {
+  display: flex;
+  flex-direction: column;
   position: relative;
-  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
 }
 
-.destaque-img {
-  position: absolute;
-  top: 3.125rem;
-  left: 14.125rem;
+.destaque-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .destaque h1 {
-  position: absolute;
-  top: 20.5rem;
-  left: 38.625rem;
+  margin-top: -9.5rem;
   color: white;
   /* font-family: Gotham; */
   font-size: 35px;
@@ -22,12 +25,11 @@
 }
 
 .produtos {
-  position: absolute;
-  top: 378px;
-  left: 378px;
+  width: 60%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1.875rem;
+  padding-block: 3rem;
 }
 
 .produto {
@@ -90,7 +92,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 38px; /* 237.5% */
+  line-height: 38px;
 }
 
 .valor {
@@ -122,6 +124,7 @@
     left: 2rem;
     position: initial;
     padding: 1em;
+    width: 75%;
   }
 
   .destaque {

@@ -5,15 +5,17 @@ import produtos from '@/app/produtos.json';
 
 function Destaque() {
   return (
-    <div id='destaque' className={styles.destaque}>
-      <Image
-        src='/images/destaque.png'
-        alt='destaque'
-        width={1253}
-        height={456}
-        className={styles['destaque-img']}
-      />
-      <h1>PRODUTOS EM DESTAQUE</h1>
+    <section id='destaque' className={styles.destaque}>
+      <div className={styles['destaque-banner']}>
+        <Image
+          src='/images/destaque.png'
+          alt='destaque'
+          width={1253}
+          height={456}
+          className={styles['destaque-img']}
+        />
+        <h1>PRODUTOS EM DESTAQUE</h1>
+      </div>
       <div className={styles.produtos}>
         {produtos.map((produto) => (
           <div key={produto.id} className={styles.produto}>
@@ -44,7 +46,7 @@ function Destaque() {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 }
 

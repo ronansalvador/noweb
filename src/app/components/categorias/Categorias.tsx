@@ -5,15 +5,17 @@ import Image from 'next/image';
 
 function Categorias() {
   return (
-    <div id='categorias' className={styles.categorias}>
-      <Image
-        src='/images/categorias.png'
-        alt='categorias'
-        width={1920}
-        height={456}
-        className={styles['img-categorias']}
-      />
-      <h1 className={styles.title}>CATEGORIAS</h1>
+    <section id='categorias' className={styles.categorias}>
+      <div className={styles['categorias-img']}>
+        <Image
+          src='/images/categorias.png'
+          alt='categorias'
+          width={1920}
+          height={456}
+          className={styles['img-categorias']}
+        />
+        <h1 className={styles.title}>CATEGORIAS</h1>
+      </div>
       <div className={styles['grid-categorias']}>
         {categorias.map((categoria) => (
           <div key={categoria.id} className={styles.categoria}>
@@ -29,7 +31,7 @@ function Categorias() {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 }
 

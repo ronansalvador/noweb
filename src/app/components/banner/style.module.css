@@ -1,7 +1,7 @@
 .banner {
   display: flex;
   justify-content: center;
-  height: 50rem;
+  min-height: 50rem;
   background-image: url('/images/banner.png');
   background-position: center;
   align-items: center;
@@ -95,6 +95,7 @@
     background-position: left;
     max-height: 33em;
     padding: 0.5rem;
+    min-height: 30rem;
   }
   .banner-content {
     width: 95%;

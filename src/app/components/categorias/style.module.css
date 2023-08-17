@@ -1,15 +1,18 @@
 .categorias {
-  margin-top: 350px;
+  width: 100%;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url('/images/categorias.png');
 }
 
-.categorias img {
-  width: 100%;
+.categorias-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .title {
@@ -25,11 +28,12 @@
 }
 
 .grid-categorias {
+  width: 60%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 2rem;
-  position: absolute;
-  top: 241px;
+  grid-row-gap: 1.875rem;
+  padding-block: 3rem;
+  margin-top: -17rem;
 }
 
 .grid-categorias p {
@@ -52,8 +56,8 @@
 }
 
 .categoria div {
-  width: 263px;
-  height: 258px;
+  width: 16rem;
+  height: 16em;
   background-color: var(--amarelo);
   border-radius: 70px;
   padding: 1rem;
@@ -63,11 +67,11 @@
 }
 
 .categoria:nth-child(1) img {
-  width: 122px;
+  width: 55%;
 }
 
 .categoria:nth-child(6) img {
-  width: 93px;
+  width: 42%;
 }
 
 .categoria img {
@@ -91,7 +95,6 @@
 
   .grid-categorias {
     grid-template-columns: 1fr;
-    /* gap: 4rem; */
     position: initial;
   }
 }

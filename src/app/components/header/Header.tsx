@@ -17,13 +17,14 @@ function Header() {
   return (
     <>
       <header className={styles.header}>
-        <Image
-          src='/images/header.png'
-          alt='detalhe-header'
-          width='156'
-          height='80'
-          className={styles['detalhe-header']}
-        />
+        <div className={styles['detalhe-header']}>
+          <Image
+            src='/images/header.png'
+            alt='detalhe-header'
+            width='156'
+            height='80'
+          />
+        </div>
         <Image
           src='/images/logo.png'
           alt='logo'
